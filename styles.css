@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #ccc;
+}
+
+#control-panel {
+  margin-bottom: 20px;
+}
+
+button {
+  margin-right: 10px;
+}
+
+#notification-panel, #log-panel, #query-results {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+#log-panel, #query-results {
+  height: 200px;
+  overflow-y: scroll;
+  background-color: white;
+}
+
+#notification-panel {
+  height: 50px;
+  background-color: white;
+}
